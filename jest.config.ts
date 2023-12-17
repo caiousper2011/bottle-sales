@@ -91,7 +91,7 @@ const config = {
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
-  // modulePathIgnorePatterns: [],
+  // modulePathIgnorePatterns: ['node_modules', 'jest-test-results.json'],
 
   // Activates notifications for test results
   // notify: false,

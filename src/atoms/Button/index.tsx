@@ -23,7 +23,7 @@ export interface ButtonProps
   asChild?: boolean
 }
 
-export function Button ({ asChild, variant, className, ...props }: ButtonProps) {
+export const Button = ({ asChild, variant, className, ...props }: ButtonProps) => {
   const Component = asChild ? Slot : 'button'
 
   return (
