@@ -4,7 +4,8 @@
     "react-app/jest",
     "standard",
     "standard-jsx",
-    "standard-react"
+    "standard-react",
+    "plugin:storybook/recommended"
   ],
   "plugins": [
     "jsx-a11y"
@@ -24,8 +25,11 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-pascal-case": "off",
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["off", {
-      "ignoreRestSiblings": true
-    }]
+    "@typescript-eslint/no-unused-vars": [
+      "off",
+      {
+        "ignoreRestSiblings": true
+      }
+    ]
   }
 }
