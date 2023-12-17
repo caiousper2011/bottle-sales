@@ -63,6 +63,7 @@
     "@storybook/react-vite": "7.6.4",
     "@storybook/test": "7.6.4",
     "eslint-plugin-storybook": "^0.6.15",
+    "jest-environment-jsdom": "^29.7.0",
     "storybook": "7.6.4"
   }
 }
