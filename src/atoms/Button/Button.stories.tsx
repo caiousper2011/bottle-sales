@@ -12,7 +12,7 @@ const meta: Meta<ButtonProps> = {
         <>
           <Title>Button</Title>
           <Description>This compoenent is a button that is shared with the whole project</Description>
-          <Primary />
+          <PrimaryStory />
           <Controls />
           <Stories />
         </>
